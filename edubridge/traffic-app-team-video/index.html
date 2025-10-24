@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Checking App - Team Presentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <!-- Intro Scene -->
+        <div class="scene intro-scene active" id="intro">
+            <div class="animated-bg">
+                <div class="traffic-lines"></div>
+                <div class="route-dots"></div>
+            </div>
+            <div class="content">
+                <div class="logo-container">
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <h1 class="title">Traffic Checking App</h1>
+                <p class="subtitle">Team Presentation</p>
+            </div>
+        </div>
+
+        <!-- Team Member 1 -->
+        <div class="scene member-scene" id="member1">
+            <div class="animated-bg gradient-bg-1">
+                <div class="floating-elements"></div>
+            </div>
+            <div class="member-card">
+                <div class="member-photo">
+                    <div class="photo-placeholder">SR</div>
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="member-info">
+                    <h2 class="member-name">Shaltone Rimba</h2>
+                    <p class="member-role">Group Leader</p>
+                    <p class="member-tagline">Leading the team with vision</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="scene member-scene" id="member2">
+            <div class="animated-bg gradient-bg-2">
+                <div class="ui-mockup">
+                    <div class="phone-frame">
+                        <div class="mockup-content"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-photo">
+                    <div class="photo-placeholder">FP</div>
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="member-info">
+                    <h2 class="member-name">Fortune Paul</h2>
+                    <p class="member-role">UI/UX Designer</p>
+                    <p class="member-tagline">Crafting beautiful experiences</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="scene member-scene" id="member3">
+            <div class="animated-bg gradient-bg-3">
+                <div class="code-background">
+                    <div class="code-lines"></div>
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-photo">
+                    <div class="photo-placeholder">CM</div>
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="member-info">
+                    <h2 class="member-name typing-effect">Catherine Matu</h2>
+                    <p class="member-role">Frontend Developer</p>
+                    <p class="member-tagline">Bringing designs to life</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="scene member-scene" id="member4">
+            <div class="animated-bg gradient-bg-4">
+                <div class="responsive-layout">
+                    <div class="layout-blocks"></div>
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-photo">
+                    <div class="photo-placeholder">JN</div>
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="member-info">
+                    <h2 class="member-name">Joshua Ndereba</h2>
+                    <p class="member-role">Frontend Developer</p>
+                    <p class="member-tagline">Building responsive interfaces</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 5 -->
+        <div class="scene member-scene" id="member5">
+            <div class="animated-bg gradient-bg-5">
+                <div class="slides-background">
+                    <div class="slide-previews"></div>
+                </div>
+            </div>
+            <div class="member-card">
+                <div class="member-photo">
+                    <div class="photo-placeholder">RG</div>
+                    <div class="glow-ring"></div>
+                </div>
+                <div class="member-info">
+                    <h2 class="member-name">Ricardo Gafumbe</h2>
+                    <p class="member-role">Slides & Content</p>
+                    <p class="member-tagline">Crafting compelling narratives</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Closing Scene -->
+        <div class="scene closing-scene" id="closing">
+            <div class="animated-bg">
+                <div class="particle-system"></div>
+            </div>
+            <div class="content">
+                <h1 class="title">Thank You</h1>
+                <p class="subtitle">Team Innovators</p>
+                <div class="final-message">
+                    <p>Traffic Checking App</p>
+                    <p>Making Transport Smarter</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button id="playPause">⏸️</button>
+            <button id="restart">🔄</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
